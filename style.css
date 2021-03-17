@@ -1,0 +1,181 @@
+body{
+    padding:0;
+    margin:0;
+    height: 100%;
+    position: relative;
+    background: url(images/comple.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .whole{
+    display:flex;
+    flex-direction:column;
+  }
+  /*NAV*/
+  nav{
+    display:flex;
+    justify-content:space-between;
+    align-items :center;
+    padding-left:10px;
+    padding-right:10px;
+    border-bottom: solid rgb(255, 60, 0) 2px;
+    background-color: #fff;
+    padding-bottom:5px
+  }
+  #navIcon{
+    font-size:20px;
+    color:rgb(0, 105, 190);
+  }
+  nav img{
+    width:150px;
+  }
+  /*CONTAINER*/
+  .container{
+    position:relative;
+    top:50px;
+    background-color:rgba(255, 255, 255, 0.712);
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items :center;
+    border-radius:20px;
+    padding-top:5px;
+  }
+  .btns{
+    display:flex;
+    justify-content:space-between;
+  }
+  .btns button:first-child{
+    background:transparent;
+    color:rgb(0, 105, 190);
+    border:rgb(0, 105, 190) solid 1px;
+  }
+  .btns button:last-child:hover{
+    background:transparent;
+    color:rgb(0, 105, 190);
+    border:rgb(0, 105, 190) solid 1px;
+  }
+  .btns button{
+    outline:none;
+    border-radius:20px;
+    height:40px;
+    width:150px;
+    margin-left:10px;
+    border:none;
+    font-size:15px;
+    margin-right:10px;
+    margin-top:10px;
+    transition: all 0.4s ease-in-out;
+  }
+  .circles{
+    position:relative;
+    left:110px;
+    top:7px;
+    font-size:10px;
+    
+  }
+  .circles #circle{
+    color:rgb(255, 60, 0);
+  }
+  .inputs{
+    position:relative;
+    top:20px;
+    right:25px;
+    margin-bottom:30px;
+    width:270px;
+    height:50px;
+  }
+  .inputs input{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding-left:40px;
+    font-size:18px;
+    border:none;
+    border-bottom:1px solid grey;
+    background: transparent;
+    outline: none;
+  }
+  .inputs:hover #lock,.inputs:focus #lock{
+    color:rgb(255, 60, 0);
+  }
+  .inputs #lock{
+    position:absolute;
+    top:12px;
+    left:5px;
+    color:#000;
+    z-index:1;
+    font-size:25px;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  #clavier{
+    display: flex;
+    flex-direction: column;
+  }
+  #clavier div{
+    display: flex;
+    justify-content: center;
+  }
+  #clavier span{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+    border: 1.5px solid rgb(255, 60, 0);
+    border-radius:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#000;
+    font-size:25px;
+    font-weight:900;
+    cursor:pointer;
+  }
+  #cnx{
+    width:80%;
+    margin-top:100px;
+    margin-bottom:20px;
+    height:42px;
+    border-radius:30px;
+    background:rgb(250, 101, 1);
+    border:none;
+    color:#fff;
+    font-size:20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

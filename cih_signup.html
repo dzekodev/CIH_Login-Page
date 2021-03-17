@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="fonts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="whole">
+        <nav>
+            <i id="navIcon" class="fas fa-bars"></i>
+            <img src="images/1d67808fca9676f0641ae71a9e45a82a.png" alt="">
+            <i id="navIcon" class="fas fa-shield-alt"></i>
+            <style>
+                nav{
+                    color: rgb(255, 60, 0);
+                }
+            </style>
+        </nav>
+        <div class="container">
+            <span class="btns">
+                <button type="submit" name="Authentification">Authentification</button>
+                <button type="submit" name="Activation">Activation</button>
+            </span>
+            <span class="circles">
+                <i id="circle" class="far fa-circle"></i>
+                <i id="circle" class="fas fa-circle"></i>
+                <i id="circle" class="far fa-circle"></i>
+                <i id="circle" class="far fa-circle"></i>
+                <i id="circle" class="far fa-circle"></i>
+                <i id="circle" class="far fa-circle"></i>
+                <i id="circle" class="far fa-circle"></i>
+            </span>
+            <span class="inputs">
+                <i id="lock" class="fas fa-user"></i>
+                <input type="text" name="numCompte" placeholder="numero de compte">
+            </span>
+            <span class="inputs">
+                <i id="lock" class="fas fa-lock"></i>
+                <input type="password" name="MotDePasse" id="mdps" placeholder="Mot de Passe">
+            </span>
+            <div id="clavier">
+                <div>
+                    <span onclick="getNumber(5);">5</span>
+                    <span onclick="getNumber(8);">8</span>
+                    <span onclick="getNumber(2);">2</span>
+                    <span onclick="getNumber(0);">0</span>
+                </div>
+                <div>
+                    <span onclick="getNumber(1);">1</span>
+                    <span onclick="getNumber(4);">4</span>
+                    <span onclick="getNumber(6);">6</span>
+                    <span onclick="getNumber(9);">9</span>
+                </div>
+                <div>
+                    <span  onclick="getNumber(3);">3</span>
+                    <span onclick="getNumber(7);">7</span>
+                </div>
+                <script>
+                    function getNumber(number){
+                        inputMdps = document.getElementById("mdps");
+                        inputMdps.value=inputMdps.value + number;
+                    }
+
+                </script>
+            </div>
+            <button type="submit" name="Connexion" id="cnx">Connexion</button>
+        </div>
+    </div>
+    
+</body>
+</html>
